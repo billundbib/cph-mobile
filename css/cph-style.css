@@ -112,3 +112,17 @@ h1, #ting-collection h1, .pane-title {
 .top-menu li:nth-child(even) a {
   margin: 0;
 }
+
+/* Make eu-cookie-control module's popup usabele on mobile. */
+#sliding-popup .popup-content {
+  width: 100%;
+}
+
+#sliding-popup .popup-content #popup-text {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+#sliding-popup .popup-content #popup-buttons {
+  float: none;
+}
